@@ -38,5 +38,10 @@ else
 
     #sucess message
     echo "Created Project: $dst"
+	
+	# by alain
+	cd "$dst"
+	mate "$dst"
+
 fi
 
